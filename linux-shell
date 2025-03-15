@@ -1,0 +1,34 @@
+1. What is Linux Shell?
+A Linux Shell is a command-line interface that allows users to interact with the operating system by executing commands or running scripts.
+
+2. Types of Shells in Linux (One Line Summary)
+sh (Bourne Shell) – Basic and lightweight.
+bash (Bourne Again Shell) – Most common, advanced features, default in Linux.
+zsh (Z Shell) – Feature-rich, with plugins and themes.
+fish (Friendly Interactive Shell) – User-friendly, auto-suggestions.
+ksh (KornShell) – Enhanced sh, used in enterprises.
+
+3. How to Check Your Current Shell?
+Run any of these commands:
+
+-echo $0
+
+4. What is Shell Scripting?
+Shell scripting is writing a series of shell commands in a file to automate tasks like system administration, backups, and server monitoring.
+
+5.EXAMPLE of simple hello world:-
+Step 1: Create a script file
+-vi hello.sh
+
+Step 2: Write the script
+#!/bin/bash
+echo "Hello, World!"
+
+Step 3: Make it executable
+chmod +x hello.sh
+
+Step 4: Run the script
+./hello.sh
+
+Output:
+Hello, World!
